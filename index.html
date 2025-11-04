@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UTS Pemrograman Berbasis Web</title>
+
+  <!-- Hubungkan file CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Website Pribadi Saya</h1>
+  </header>
+
+  <nav>
+    <a href="#" onclick="tampilkanHalaman('home')">Home</a>
+    <a href="#" onclick="tampilkanHalaman('about')">About</a>
+    <a href="#" onclick="tampilkanHalaman('pendidikan')">Riwayat Pendidikan</a>
+  </nav>
+
+  <main>
+    <!-- Halaman HOME -->
+    <section id="home" class="active">
+      <h2>Selamat Datang!</h2>
+      <p id="sapaan"></p>
+      <p>Hai! Terima kasih sudah berkunjung ke website saya 
+        Website ini saya buat sebagai bagian dari tugas UTS Pemrograman Berbasis Web.
+        Di sini kamu bisa tahu sedikit tentang saya, latar belakang pendidikan, dan apa saja yang sedang saya pelajari.
+        Yuk, jelajahi dan kenalan lebih jauh!.</p>
+    </section>
+
+    <!-- Halaman ABOUT -->
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Nama saya <b id="namaSaya">[nama pengguna]</b>. Selamat datang di website pribadi saya!
+Saya adalah seorang mahasiswa yang sedang belajar pemrograman web menggunakan HTML, CSS, dan JavaScript.
+Melalui website ini, saya ingin membagikan hasil pembelajaran saya dalam membangun tampilan web.</p>
+    </section>
+
+    <!-- Halaman RIWAYAT PENDIDIKAN -->
+    <section id="pendidikan">
+      <h2>Riwayat Pendidikan</h2>
+      <table>
+        <tr>
+          <th>Tingkat</th>
+          <th>Nama Sekolah</th>
+          <th>Tahun Lulus</th>
+        </tr>
+        <tr>
+          <td>SD</td>
+          <td>SDN Ciporeat</td>
+          <td>2019</td>
+        </tr>
+        <tr>
+          <td>SMP</td>
+          <td>SMPN 56</td>
+          <td>2021</td>
+        </tr>
+        <tr>
+          <td>SMA</td>
+          <td>SMA Muhammadiyah 4 Bandung</td>
+          <td>2024</td>
+        </tr>
+        <tr>
+          <td>Perguruan Tinggi</td>
+          <td>Universitas Widyatama</td>
+          <td>Masih berjalan</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - UTS Pemrograman Berbasis Web</p>
+  </footer>
+
+  <!-- Hubungkan file JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

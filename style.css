@@ -1,0 +1,78 @@
+/* Gaya Umum */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Navigasi */
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Konten Utama */
+main {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Sembunyikan section yang tidak aktif */
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+/* Tabel Pendidikan */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
